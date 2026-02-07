@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion, useInView } from 'motion/react'
+import { Link } from 'react-router-dom'
 
 // ─── Typewriter hook ────────────────────────────────────────────────
 function useTypewriter(text: string, speed = 40, startDelay = 0, enabled = true) {
@@ -412,13 +413,21 @@ export default function Design2() {
 
         {/* Footer */}
         <motion.footer
-          className="mt-24 md:mt-32 text-xs tracking-[0.3em] opacity-20"
+          className="mt-24 md:mt-32 text-xs tracking-[0.3em]"
           style={{ fontFamily: "'Space Mono', monospace" }}
           initial={{ opacity: 0 }}
           animate={ctaInView ? { opacity: 0.2 } : {}}
           transition={{ delay: 1.5, duration: 1 }}
         >
-          &copy; 2025 WIPESWIPE
+          <div className="flex flex-col items-center gap-3">
+            <span>&copy; 2025 WIPESWIPE</span>
+            <Link
+              to="/privacy-policy"
+              className="text-[#f0f0e8] no-underline hover:text-[#FF2D2D] transition-colors"
+            >
+              PRIVACY POLICY
+            </Link>
+          </div>
         </motion.footer>
       </section>
     </div>
