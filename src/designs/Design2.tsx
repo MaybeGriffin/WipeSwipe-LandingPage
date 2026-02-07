@@ -159,6 +159,23 @@ export default function Design2() {
         }
       `}</style>
 
+      {/* ═══════════ NAV ═══════════ */}
+      <motion.nav
+        className="fixed top-0 right-0 z-50 p-5 md:p-8"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0.5 }}
+        transition={{ delay: 2.5, duration: 1 }}
+        whileHover={{ opacity: 1 }}
+      >
+        <Link
+          to="/privacy-policy"
+          className="text-[#f0f0e8] no-underline text-[10px] md:text-xs tracking-[0.2em] uppercase hover:text-[#FF2D2D] transition-colors"
+          style={{ fontFamily: "'Space Mono', monospace" }}
+        >
+          PRIVACY POLICY
+        </Link>
+      </motion.nav>
+
       {/* ═══════════ HERO SECTION ═══════════ */}
       <motion.section
         className="min-h-screen flex flex-col items-center justify-center relative px-4"
