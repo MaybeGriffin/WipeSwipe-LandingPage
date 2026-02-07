@@ -160,21 +160,15 @@ export default function Design2() {
       `}</style>
 
       {/* ═══════════ NAV ═══════════ */}
-      <motion.nav
-        className="fixed top-0 right-0 z-50 p-5 md:p-8"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 0.5 }}
-        transition={{ delay: 2.5, duration: 1 }}
-        whileHover={{ opacity: 1 }}
-      >
+      <nav className="fixed top-0 right-0 z-50 p-4 md:p-8">
         <Link
           to="/privacy-policy"
-          className="text-[#f0f0e8] no-underline text-[10px] md:text-xs tracking-[0.2em] uppercase hover:text-[#FF2D2D] transition-colors"
+          className="text-[#f0f0e8] no-underline text-[10px] md:text-xs tracking-[0.15em] md:tracking-[0.2em] uppercase opacity-60 hover:opacity-100 hover:text-[#FF2D2D] transition-all"
           style={{ fontFamily: "'Space Mono', monospace" }}
         >
-          PRIVACY POLICY
+          PRIVACY
         </Link>
-      </motion.nav>
+      </nav>
 
       {/* ═══════════ HERO SECTION ═══════════ */}
       <motion.section
