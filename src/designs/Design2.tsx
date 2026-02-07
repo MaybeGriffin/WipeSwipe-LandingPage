@@ -116,7 +116,7 @@ export default function Design2() {
       currentLine.push(
         <span
           key={`seg-${i}`}
-          className={item.highlight === 'red' ? 'text-[#FF2D2D] font-bold' : ''}
+          className={item.highlight === 'red' ? 'text-[#1E90FF] font-bold' : ''}
         >
           {item.text}
         </span>
@@ -163,7 +163,7 @@ export default function Design2() {
       <nav className="fixed top-0 right-0 z-50 p-4 md:p-8">
         <Link
           to="/privacy-policy"
-          className="text-[#f0f0e8] no-underline text-[10px] md:text-xs tracking-[0.15em] md:tracking-[0.2em] uppercase opacity-60 hover:opacity-100 hover:text-[#FF2D2D] transition-all"
+          className="text-[#f0f0e8] no-underline text-[10px] md:text-xs tracking-[0.15em] md:tracking-[0.2em] uppercase opacity-60 hover:opacity-100 hover:text-[#1E90FF] transition-all"
           style={{ fontFamily: "'Space Mono', monospace" }}
         >
           PRIVACY
@@ -199,7 +199,7 @@ export default function Design2() {
                 WIPE
                 {/* Red strikethrough animation */}
                 <motion.span
-                  className="absolute left-0 top-1/2 h-[6px] md:h-[10px] bg-[#FF2D2D] -translate-y-1/2 pointer-events-none"
+                  className="absolute left-0 top-1/2 h-[6px] md:h-[10px] bg-[#1E90FF] -translate-y-1/2 pointer-events-none"
                   initial={{ width: '0%' }}
                   animate={{ width: '105%' }}
                   transition={{ delay: 1.2, duration: 0.6, ease: 'easeInOut' }}
@@ -250,8 +250,8 @@ export default function Design2() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 2.2, duration: 0.6 }}
           whileHover={{
-            backgroundColor: '#FF2D2D',
-            borderColor: '#FF2D2D',
+            backgroundColor: '#1E90FF',
+            borderColor: '#1E90FF',
             color: '#0c0c0c',
             scale: 1.05,
           }}
@@ -277,7 +277,7 @@ export default function Design2() {
       <section ref={manifestoRef} className="py-24 md:py-40 px-6 md:px-12">
         <div className="max-w-3xl mx-auto md:ml-[10%]">
           <motion.div
-            className="border-l-[3px] border-[#FF2D2D] pl-6 md:pl-10"
+            className="border-l-[3px] border-[#1E90FF] pl-6 md:pl-10"
             initial={{ opacity: 0 }}
             animate={manifestoInView ? { opacity: 1 } : {}}
             transition={{ duration: 0.5 }}
@@ -321,7 +321,7 @@ export default function Design2() {
           >
             {/* Terminal header bar */}
             <div className="flex items-center gap-2 px-4 py-3 border-b-[2px] border-[#f0f0e8]/20">
-              <span className="w-3 h-3 rounded-full bg-[#FF2D2D]" />
+              <span className="w-3 h-3 rounded-full bg-[#1E90FF]" />
               <span className="w-3 h-3 rounded-full bg-[#f0f0e8]/20" />
               <span className="w-3 h-3 rounded-full bg-[#f0f0e8]/20" />
               <span
@@ -396,7 +396,7 @@ export default function Design2() {
             </h2>
             {/* Red strikethrough on PHOTOS */}
             <motion.span
-              className="absolute left-[-3%] top-1/2 h-[6px] md:h-[10px] bg-[#FF2D2D] -translate-y-1/2 pointer-events-none"
+              className="absolute left-[-3%] top-1/2 h-[6px] md:h-[10px] bg-[#1E90FF] -translate-y-1/2 pointer-events-none"
               initial={{ width: '0%' }}
               animate={ctaInView ? { width: '106%' } : {}}
               transition={{ delay: 0.8, duration: 0.5, ease: 'easeInOut' }}
@@ -410,7 +410,7 @@ export default function Design2() {
           className="mt-12 md:mt-16 inline-block px-12 py-5 text-sm md:text-base tracking-[0.2em] uppercase no-underline font-bold"
           style={{
             fontFamily: "'Space Mono', monospace",
-            backgroundColor: '#FF2D2D',
+            backgroundColor: '#1E90FF',
             color: '#0c0c0c',
           }}
           initial={{ opacity: 0, y: 30 }}
@@ -434,7 +434,7 @@ export default function Design2() {
             <span>&copy; 2025 WIPESWIPE</span>
             <Link
               to="/privacy-policy"
-              className="text-[#f0f0e8] no-underline hover:text-[#FF2D2D] transition-colors"
+              className="text-[#f0f0e8] no-underline hover:text-[#1E90FF] transition-colors"
             >
               PRIVACY POLICY
             </Link>

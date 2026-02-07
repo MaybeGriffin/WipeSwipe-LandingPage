@@ -35,7 +35,7 @@ export default function PrivacyPolicy() {
       <header className="px-6 md:px-12 lg:px-24 py-6 flex items-center justify-between">
         <Link
           to="/"
-          className="text-[#f0f0e8] no-underline text-sm tracking-[0.2em] uppercase hover:text-[#FF2D2D] transition-colors"
+          className="text-[#f0f0e8] no-underline text-sm tracking-[0.2em] uppercase hover:text-[#1E90FF] transition-colors"
           style={{ fontFamily: "'Space Mono', monospace" }}
         >
           &larr; BACK TO HOME
@@ -77,11 +77,11 @@ export default function PrivacyPolicy() {
             We respect your privacy and are committed to protecting your personal data. Here&apos;s what you need to know about how we protect your privacy:
           </p>
           <ul className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
-            <li className="pl-4 border-l-2 border-[#FF2D2D]">Your photos never leave your device&mdash;WipeSwipe works entirely on your phone. We never upload, access, or store your photos on any external servers.</li>
-            <li className="pl-4 border-l-2 border-[#FF2D2D]">Free users see occasional ads&mdash;we use Google AdMob to show non-intrusive native ads. Premium subscribers enjoy an ad-free experience. We don&apos;t track you across other apps.</li>
-            <li className="pl-4 border-l-2 border-[#FF2D2D]">Authentication is minimal&mdash;we use Clerk for secure sign-in, storing only what&apos;s essential for your account.</li>
-            <li className="pl-4 border-l-2 border-[#FF2D2D]">You&apos;re in control&mdash;you decide which photos to keep or delete. Nothing is permanently removed without your explicit confirmation.</li>
-            <li className="pl-4 border-l-2 border-[#FF2D2D]">Local-first by design&mdash;all sorting, progress, and swipe decisions are stored on your device.</li>
+            <li className="pl-4 border-l-2 border-[#1E90FF]">Your photos never leave your device&mdash;WipeSwipe works entirely on your phone. We never upload, access, or store your photos on any external servers.</li>
+            <li className="pl-4 border-l-2 border-[#1E90FF]">Free users see occasional ads&mdash;we use Google AdMob to show non-intrusive native ads. Premium subscribers enjoy an ad-free experience. We don&apos;t track you across other apps.</li>
+            <li className="pl-4 border-l-2 border-[#1E90FF]">Authentication is minimal&mdash;we use Clerk for secure sign-in, storing only what&apos;s essential for your account.</li>
+            <li className="pl-4 border-l-2 border-[#1E90FF]">You&apos;re in control&mdash;you decide which photos to keep or delete. Nothing is permanently removed without your explicit confirmation.</li>
+            <li className="pl-4 border-l-2 border-[#1E90FF]">Local-first by design&mdash;all sorting, progress, and swipe decisions are stored on your device.</li>
           </ul>
           <p className="text-sm md:text-base leading-relaxed opacity-70 mt-6">
             This privacy policy explains how we handle your personal data when you use WipeSwipe (the &quot;App&quot;) and tells you about your privacy rights and how the law protects you.
@@ -91,7 +91,7 @@ export default function PrivacyPolicy() {
         {/* Section 01 */}
         <section className="pb-12 mb-12 border-b border-[#f0f0e8]/10">
           <div className="mb-8">
-            <span className="text-[#FF2D2D] text-xs tracking-[0.3em] font-bold">01</span>
+            <span className="text-[#1E90FF] text-xs tracking-[0.3em] font-bold">01</span>
             <h2
               className="mt-2 tracking-tight"
               style={{
@@ -105,9 +105,9 @@ export default function PrivacyPolicy() {
 
           <div className="space-y-8">
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Purpose of This Privacy Policy</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Purpose of This Privacy Policy</h3>
               <div className="border-l-2 border-[#f0f0e8]/20 pl-4 mb-4 text-xs opacity-50 italic">
-                <span className="text-[#FF2D2D] not-italic font-bold">in short</span> &mdash; We only collect and use your data when it&apos;s necessary&mdash;whether to provide you with services, comply with the law, protect your rights, or meet our business obligations. We&apos;ll always be transparent about how we handle your data.
+                <span className="text-[#1E90FF] not-italic font-bold">in short</span> &mdash; We only collect and use your data when it&apos;s necessary&mdash;whether to provide you with services, comply with the law, protect your rights, or meet our business obligations. We&apos;ll always be transparent about how we handle your data.
               </div>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>This privacy policy explains how WipeSwipe processes your personal data through your use of our App, including any data you may provide when creating an account or using our features.</p>
@@ -117,27 +117,27 @@ export default function PrivacyPolicy() {
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Data Controller</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Data Controller</h3>
               <div className="border-l-2 border-[#f0f0e8]/20 pl-4 mb-4 text-xs opacity-50 italic">
-                <span className="text-[#FF2D2D] not-italic font-bold">in short</span> &mdash; WipeSwipe is responsible for keeping your data safe. We use industry-standard security for authentication, but your photos and swipe decisions remain private on your device.
+                <span className="text-[#1E90FF] not-italic font-bold">in short</span> &mdash; WipeSwipe is responsible for keeping your data safe. We use industry-standard security for authentication, but your photos and swipe decisions remain private on your device.
               </div>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>WipeSwipe is the data controller responsible for the personal data described in this privacy policy.</p>
                 <p>If you have any questions about this privacy policy, including any requests to exercise your legal rights in relation to your personal data, please contact us:</p>
-                <p><strong className="text-[#f0f0e8]">Email:</strong> <a href="mailto:brittjamesg@gmail.com" className="text-[#FF2D2D] hover:underline">brittjamesg@gmail.com</a></p>
+                <p><strong className="text-[#f0f0e8]">Email:</strong> <a href="mailto:brittjamesg@gmail.com" className="text-[#1E90FF] hover:underline">brittjamesg@gmail.com</a></p>
                 <p>You have the right to make a complaint at any time to the relevant data protection authority in your jurisdiction. We would, however, appreciate the opportunity to address your concerns before you approach a regulator&mdash;please contact us first.</p>
               </div>
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Changes to This Privacy Policy</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Changes to This Privacy Policy</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>We keep our privacy policy under regular review. Any updates will be posted on this page. It is important that the personal data we hold about you is accurate and current. Please keep us informed if your personal data changes during your relationship with us.</p>
               </div>
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Third-Party Links</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Third-Party Links</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>Our App may include links to third-party websites, services, or applications. Clicking on those links may allow third parties to collect or share data about you. We do not control these third-party services and are not responsible for their privacy statements. We encourage you to read the privacy policy of every service you interact with.</p>
               </div>
@@ -148,7 +148,7 @@ export default function PrivacyPolicy() {
         {/* Section 02 */}
         <section className="pb-12 mb-12 border-b border-[#f0f0e8]/10">
           <div className="mb-8">
-            <span className="text-[#FF2D2D] text-xs tracking-[0.3em] font-bold">02</span>
+            <span className="text-[#1E90FF] text-xs tracking-[0.3em] font-bold">02</span>
             <h2
               className="mt-2 tracking-tight"
               style={{
@@ -162,9 +162,9 @@ export default function PrivacyPolicy() {
 
           <div className="space-y-8">
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Types of Data</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Types of Data</h3>
               <div className="border-l-2 border-[#f0f0e8]/20 pl-4 mb-4 text-xs opacity-50 italic">
-                <span className="text-[#FF2D2D] not-italic font-bold">in short</span> &mdash; We collect basic account information (like your email) when you sign up. Your photos never leave your device&mdash;all decisions and preferences are stored locally. We may collect anonymous usage data to improve the app.
+                <span className="text-[#1E90FF] not-italic font-bold">in short</span> &mdash; We collect basic account information (like your email) when you sign up. Your photos never leave your device&mdash;all decisions and preferences are stored locally. We may collect anonymous usage data to improve the app.
               </div>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>Personal data, or personal information, means any information about an individual from which that person can be identified. It does not include data where the identity has been removed (anonymous data).</p>
@@ -180,7 +180,7 @@ export default function PrivacyPolicy() {
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Advertising Data (Free Users Only)</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Advertising Data (Free Users Only)</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>If you use WipeSwipe as a free user, we display occasional native ads through Google AdMob. In this context, AdMob may collect:</p>
                 <p><strong className="text-[#f0f0e8]">&ndash; Device Advertising Identifier</strong> &mdash; Your device&apos;s advertising ID (IDFA on iOS) may be collected to serve relevant ads. On iOS 14.5+, you&apos;ll be asked for permission through App Tracking Transparency before this identifier is accessed.</p>
@@ -191,7 +191,7 @@ export default function PrivacyPolicy() {
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">What We Do NOT Collect</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">What We Do NOT Collect</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p><strong className="text-[#f0f0e8]">Your photos and videos</strong> &mdash; We never upload, access, or store your media files on our servers. All photos remain on your device.</p>
                 <p><strong className="text-[#f0f0e8]">Location data</strong> &mdash; WipeSwipe does not request or use your location.</p>
@@ -201,14 +201,14 @@ export default function PrivacyPolicy() {
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Third-Party Authentication</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Third-Party Authentication</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>When you sign up or sign in using Google, Facebook, or Apple, we use Clerk as our authentication provider. These services share limited profile information with us (typically name and email) according to your permissions. We do not receive or store your passwords from these services.</p>
               </div>
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">If You Fail to Provide Personal Data</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">If You Fail to Provide Personal Data</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>Where we need to collect personal data by law, or under the terms of a contract we have with you, and you fail to provide that data when requested, we may not be able to perform the contract we have or are trying to enter into with you (for example, to provide you with our services).</p>
               </div>
@@ -219,7 +219,7 @@ export default function PrivacyPolicy() {
         {/* Section 03 */}
         <section className="pb-12 mb-12 border-b border-[#f0f0e8]/10">
           <div className="mb-8">
-            <span className="text-[#FF2D2D] text-xs tracking-[0.3em] font-bold">03</span>
+            <span className="text-[#1E90FF] text-xs tracking-[0.3em] font-bold">03</span>
             <h2
               className="mt-2 tracking-tight"
               style={{
@@ -233,7 +233,7 @@ export default function PrivacyPolicy() {
 
           <div className="space-y-8">
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Collection Methods</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Collection Methods</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>We use different methods to collect personal data from and about you including through:</p>
                 <p><strong className="text-[#f0f0e8]">&mdash; Direct interactions.</strong> You may provide us with Identity and Contact Data when you:</p>
@@ -261,7 +261,7 @@ export default function PrivacyPolicy() {
         {/* Section 04 */}
         <section className="pb-12 mb-12 border-b border-[#f0f0e8]/10">
           <div className="mb-8">
-            <span className="text-[#FF2D2D] text-xs tracking-[0.3em] font-bold">04</span>
+            <span className="text-[#1E90FF] text-xs tracking-[0.3em] font-bold">04</span>
             <h2
               className="mt-2 tracking-tight"
               style={{
@@ -275,7 +275,7 @@ export default function PrivacyPolicy() {
 
           <div className="space-y-8">
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Legal Basis</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Legal Basis</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:</p>
                 <p>&ndash; Where we need to perform the contract we are about to enter into or have entered into with you.</p>
@@ -286,7 +286,7 @@ export default function PrivacyPolicy() {
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Purposes for Which We Will Use Your Personal Data</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Purposes for Which We Will Use Your Personal Data</h3>
               <div className="space-y-6 text-sm md:text-base leading-relaxed opacity-70">
                 <div>
                   <p className="mb-2"><strong className="text-[#f0f0e8]">1. To register you as a new user</strong></p>
@@ -331,7 +331,7 @@ export default function PrivacyPolicy() {
         {/* Section 05 */}
         <section className="pb-12 mb-12 border-b border-[#f0f0e8]/10">
           <div className="mb-8">
-            <span className="text-[#FF2D2D] text-xs tracking-[0.3em] font-bold">05</span>
+            <span className="text-[#1E90FF] text-xs tracking-[0.3em] font-bold">05</span>
             <h2
               className="mt-2 tracking-tight"
               style={{
@@ -345,9 +345,9 @@ export default function PrivacyPolicy() {
 
           <div className="space-y-8">
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Who We Share Data With</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Who We Share Data With</h3>
               <div className="border-l-2 border-[#f0f0e8]/20 pl-4 mb-4 text-xs opacity-50 italic">
-                <span className="text-[#FF2D2D] not-italic font-bold">in short</span> &mdash; We may share your data with trusted partners who help us run our business (like authentication providers or professional advisers) or when required by law. Your photos never leave your device, and any partners we work with are bound by strict confidentiality and security rules.
+                <span className="text-[#1E90FF] not-italic font-bold">in short</span> &mdash; We may share your data with trusted partners who help us run our business (like authentication providers or professional advisers) or when required by law. Your photos never leave your device, and any partners we work with are bound by strict confidentiality and security rules.
               </div>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>When required for the purposes stated above, we may share your personal data with:</p>
@@ -368,7 +368,7 @@ export default function PrivacyPolicy() {
         {/* Section 06 */}
         <section className="pb-12 mb-12 border-b border-[#f0f0e8]/10">
           <div className="mb-8">
-            <span className="text-[#FF2D2D] text-xs tracking-[0.3em] font-bold">06</span>
+            <span className="text-[#1E90FF] text-xs tracking-[0.3em] font-bold">06</span>
             <h2
               className="mt-2 tracking-tight"
               style={{
@@ -382,21 +382,21 @@ export default function PrivacyPolicy() {
 
           <div className="space-y-8">
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">How We Protect Your Data</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">How We Protect Your Data</h3>
               <div className="border-l-2 border-[#f0f0e8]/20 pl-4 mb-4 text-xs opacity-50 italic">
-                <span className="text-[#FF2D2D] not-italic font-bold">in short</span> &mdash; We take your data security seriously. Your photos never leave your device, and we use industry-standard security measures to protect any personal information we do collect. If a data breach occurs, we&apos;ll inform you and the relevant authorities as required.
+                <span className="text-[#1E90FF] not-italic font-bold">in short</span> &mdash; We take your data security seriously. Your photos never leave your device, and we use industry-standard security measures to protect any personal information we do collect. If a data breach occurs, we&apos;ll inform you and the relevant authorities as required.
               </div>
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Your Photos Stay Private</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Your Photos Stay Private</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>WipeSwipe operates on a privacy-first model. Your photos and videos are accessed locally on your device using the native media library and are never uploaded, transmitted, or stored on our servers. All photo decisions (keep, delete, organize) happen entirely on your device.</p>
               </div>
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Authentication Security</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Authentication Security</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>We use Clerk, a trusted third-party authentication provider, to securely manage your account. When you sign in using Google, Facebook, Apple, or email/password:</p>
                 <ul className="list-disc pl-6 space-y-1">
@@ -408,7 +408,7 @@ export default function PrivacyPolicy() {
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Local Data Protection</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Local Data Protection</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>Any app settings and preferences you configure are stored locally on your device using encrypted secure storage. This includes:</p>
                 <ul className="list-disc pl-6 space-y-1">
@@ -420,14 +420,14 @@ export default function PrivacyPolicy() {
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Access Controls</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Access Controls</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>We limit access to any personal data we collect to those employees, contractors, and service providers who have a legitimate business need. They are bound by confidentiality obligations and are only permitted to process your data according to our instructions.</p>
               </div>
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Breach Response</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Breach Response</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>We have procedures in place to handle any suspected personal data breach. Should a breach occur that affects your personal data, we will notify you and any applicable regulatory authority where legally required to do so.</p>
               </div>
@@ -438,7 +438,7 @@ export default function PrivacyPolicy() {
         {/* Section 07 */}
         <section className="pb-12 mb-12 border-b border-[#f0f0e8]/10">
           <div className="mb-8">
-            <span className="text-[#FF2D2D] text-xs tracking-[0.3em] font-bold">07</span>
+            <span className="text-[#1E90FF] text-xs tracking-[0.3em] font-bold">07</span>
             <h2
               className="mt-2 tracking-tight"
               style={{
@@ -452,14 +452,14 @@ export default function PrivacyPolicy() {
 
           <div className="space-y-8">
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">How Long Will You Use My Personal Data For?</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">How Long Will You Use My Personal Data For?</h3>
               <div className="border-l-2 border-[#f0f0e8]/20 pl-4 mb-4 text-xs opacity-50 italic">
-                <span className="text-[#FF2D2D] not-italic font-bold">in short</span> &mdash; Your photos and swipe decisions stay on your device&mdash;we never store them. Account data is retained only while your account is active or as required by law. You&apos;re in full control.
+                <span className="text-[#1E90FF] not-italic font-bold">in short</span> &mdash; Your photos and swipe decisions stay on your device&mdash;we never store them. Account data is retained only while your account is active or as required by law. You&apos;re in full control.
               </div>
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">On-Device Data</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">On-Device Data</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>All photo-related data&mdash;including your swipe decisions, kept/discarded lists, session progress, and app preferences&mdash;are stored exclusively on your device. <strong className="text-[#f0f0e8]">We never upload or retain your photos or decisions on our servers.</strong> This data persists on your device until you:</p>
                 <ul className="list-disc pl-6 space-y-1">
@@ -471,14 +471,14 @@ export default function PrivacyPolicy() {
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Account Data</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Account Data</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>If you create an account with WipeSwipe (via email or Apple Sign-In), we retain your account information (such as your email address and authentication credentials) only for as long as your account remains active. We may retain certain data for a longer period in the event of a complaint, to comply with legal obligations, or if we reasonably believe there is a prospect of litigation.</p>
               </div>
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Retention Criteria</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Retention Criteria</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>To determine appropriate retention periods, we consider:</p>
                 <ul className="list-disc pl-6 space-y-1">
@@ -491,20 +491,20 @@ export default function PrivacyPolicy() {
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Anonymized Data</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Anonymized Data</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>In some circumstances, we may anonymize usage data (so that it can no longer be associated with you) for analytics or research purposes. Anonymized data may be retained indefinitely to help us improve WipeSwipe.</p>
               </div>
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Deleting Your Data</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Deleting Your Data</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>You can delete your on-device data at any time by:</p>
                 <p><strong className="text-[#f0f0e8]">1. Clearing app data</strong> &mdash; Settings &rarr; Apps &rarr; WipeSwipe &rarr; Clear Data</p>
                 <p><strong className="text-[#f0f0e8]">2. Signing out</strong> &mdash; Settings &rarr; Account &rarr; Sign Out (clears authentication tokens)</p>
                 <p><strong className="text-[#f0f0e8]">3. Uninstalling the app</strong> &mdash; Removes all locally stored data</p>
-                <p className="mt-4">To delete your account entirely, contact us at <a href="mailto:brittjamesg@gmail.com" className="text-[#FF2D2D] hover:underline">brittjamesg@gmail.com</a>, and we will remove your account data from our authentication provider within 30 days.</p>
+                <p className="mt-4">To delete your account entirely, contact us at <a href="mailto:brittjamesg@gmail.com" className="text-[#1E90FF] hover:underline">brittjamesg@gmail.com</a>, and we will remove your account data from our authentication provider within 30 days.</p>
               </div>
             </div>
           </div>
@@ -513,7 +513,7 @@ export default function PrivacyPolicy() {
         {/* Section 08 */}
         <section className="pb-12">
           <div className="mb-8">
-            <span className="text-[#FF2D2D] text-xs tracking-[0.3em] font-bold">08</span>
+            <span className="text-[#1E90FF] text-xs tracking-[0.3em] font-bold">08</span>
             <h2
               className="mt-2 tracking-tight"
               style={{
@@ -527,9 +527,9 @@ export default function PrivacyPolicy() {
 
           <div className="space-y-8">
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Your Rights Under Data Protection Laws</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Your Rights Under Data Protection Laws</h3>
               <div className="border-l-2 border-[#f0f0e8]/20 pl-4 mb-4 text-xs opacity-50 italic">
-                <span className="text-[#FF2D2D] not-italic font-bold">in short</span> &mdash; You have rights to access, correct, delete, restrict, transfer, or object to how we use your data. You can also withdraw your consent at any time. We&apos;ll handle your requests promptly, and there&apos;s no fee unless the request is excessive.
+                <span className="text-[#1E90FF] not-italic font-bold">in short</span> &mdash; You have rights to access, correct, delete, restrict, transfer, or object to how we use your data. You can also withdraw your consent at any time. We&apos;ll handle your requests promptly, and there&apos;s no fee unless the request is excessive.
               </div>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>Under certain circumstances, you have rights under data protection laws in relation to your personal data. These rights are described in detail below.</p>
@@ -551,24 +551,24 @@ export default function PrivacyPolicy() {
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">What We May Need From You</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">What We May Need From You</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>We may need to request specific information from you to help us confirm your identity and ensure your right to access your personal data (or to exercise any of your other rights). This is a security measure to ensure that personal data is not disclosed to any person who has no right to receive it. We may also contact you to ask you for further information in relation to your request to speed up our response.</p>
               </div>
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">Time Limit to Respond</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">Time Limit to Respond</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>We try to respond to all legitimate requests within one month. Occasionally it could take us longer than a month if your request is particularly complex or you have made a number of requests. In this case, we will notify you and keep you updated.</p>
               </div>
             </div>
 
             <div>
-              <h3 className="text-xs tracking-[0.2em] uppercase text-[#FF2D2D] mb-4 font-bold">How to Exercise Your Rights</h3>
+              <h3 className="text-xs tracking-[0.2em] uppercase text-[#1E90FF] mb-4 font-bold">How to Exercise Your Rights</h3>
               <div className="space-y-3 text-sm md:text-base leading-relaxed opacity-70">
                 <p>To exercise any of your rights, please contact us at:</p>
-                <p><strong className="text-[#f0f0e8]">Email:</strong> <a href="mailto:brittjamesg@gmail.com" className="text-[#FF2D2D] hover:underline">brittjamesg@gmail.com</a></p>
+                <p><strong className="text-[#f0f0e8]">Email:</strong> <a href="mailto:james.britt@wipeswipes.com" className="text-[#1E90FF] hover:underline">brittjamesg@gmail.com</a></p>
               </div>
             </div>
           </div>
@@ -580,9 +580,9 @@ export default function PrivacyPolicy() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs tracking-[0.2em] opacity-40">
           <p>&copy; {new Date().getFullYear()} WIPESWIPE</p>
           <div className="flex gap-4 items-center">
-            <a href="mailto:brittjamesg@gmail.com" className="text-[#f0f0e8] hover:text-[#FF2D2D] transition-colors no-underline">CONTACT</a>
+            <a href="mailto:brittjamesg@gmail.com" className="text-[#f0f0e8] hover:text-[#1E90FF] transition-colors no-underline">CONTACT</a>
             <span className="opacity-30">|</span>
-            <Link to="/" className="text-[#f0f0e8] hover:text-[#FF2D2D] transition-colors no-underline">HOME</Link>
+            <Link to="/" className="text-[#f0f0e8] hover:text-[#1E90FF] transition-colors no-underline">HOME</Link>
           </div>
         </div>
       </footer>
